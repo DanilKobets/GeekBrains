@@ -1,0 +1,8 @@
+num1 = int(input("введите первое число: "))
+num2 = int(input("введите второе число: "))
+print("result:" , num1 + num2)
+print("result:" , num1 - num2)
+print("result:" , num1 * num2)
+print("result:" , num1 / num2)
+print("result:" , num1 ** num2)
+print("result:" , num1 // num2)
