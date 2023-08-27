@@ -3,39 +3,39 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
 
-// using System;
+using System;
 
-// class Program
-// {
-//     static void Main(string[] args)
-//     {
-//         Console.WriteLine("Введите количество чисел:");
-//         int n = int.Parse(Console.ReadLine());
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Введите количество чисел:");
+        int n = int.Parse(Console.ReadLine());
 
-//         int[] numbers = new int[n];
+        int[] numbers = new int[n];
 
-//         Console.WriteLine("Введите числа:");
-//         for (int i = 0; i < numbers.Length; i++)
-//         {
-//             numbers[i] = int.Parse(Console.ReadLine());
-//         }
+        Console.WriteLine("Введите числа:");
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            numbers[i] = int.Parse(Console.ReadLine());
+        }
 
-//         CountPositiveNumbers(numbers);
-//     }
+        CountPositiveNumbers(numbers);
+    }
 
-//     static void CountPositiveNumbers(int[] numbers)
-//     {
-//         int positiveCount = 0;
-//         for (int i = 0; i < numbers.Length; i++)
-//         {
-//             if (numbers[i] > 0)
-//             {
-//                 positiveCount++;
-//             }
-//         }
-//         Console.WriteLine($"Количество чисел больше 0: {positiveCount}");
-//     }
-// }
+    static void CountPositiveNumbers(int[] numbers)
+    {
+        int positiveCount = 0;
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            if (numbers[i] > 0)
+            {
+                positiveCount++;
+            }
+        }
+        Console.WriteLine($"Количество чисел больше 0: {positiveCount}");
+    }
+}
 
 
 
@@ -45,29 +45,29 @@
 
 
 
-// using System;
+using System;
 
-// class Program
-// {
-//     static void Main(string[] args)
-//     {
-//         // Ввод значений b1, k1, b2 и k2
-//         Console.Write("Введите b1: ");
-//         double b1 = double.Parse(Console.ReadLine());
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Ввод значений b1, k1, b2 и k2
+        Console.Write("Введите b1: ");
+        double b1 = double.Parse(Console.ReadLine());
 
-//         Console.Write("Введите k1: ");
-//         double k1 = double.Parse(Console.ReadLine());
+        Console.Write("Введите k1: ");
+        double k1 = double.Parse(Console.ReadLine());
 
-//         Console.Write("Введите b2: ");
-//         double b2 = double.Parse(Console.ReadLine());
+        Console.Write("Введите b2: ");
+        double b2 = double.Parse(Console.ReadLine());
 
-//         Console.Write("Введите k2: ");
-//         double k2 = double.Parse(Console.ReadLine());
+        Console.Write("Введите k2: ");
+        double k2 = double.Parse(Console.ReadLine());
 
-//         // Находим координаты точки пересечения
-//         double x = (b2 - b1) / (k1 - k2);
-//         double y = k1 * x + b1;
-//         // Выводим результат
-//         Console.WriteLine("Точка пересечения: ({0}; {1})", x, y);
-//     }
-// }
+        // Находим координаты точки пересечения
+        double x = (b2 - b1) / (k1 - k2);
+        double y = k1 * x + b1;
+        // Выводим результат
+        Console.WriteLine("Точка пересечения: ({0}; {1})", x, y);
+    }
+}

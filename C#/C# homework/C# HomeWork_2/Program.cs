@@ -4,14 +4,14 @@
 // 782 -> 8
 // 918 -> 1
 
-//  void CheckEven (int num)
-// {
-//     int ed = num / 10;
-//     System.Console.WriteLine(ed % 10);
-// }
-// System.Console.WriteLine("Введите число ->");
-// int num = Convert.ToInt32(Console.ReadLine());
-// CheckEven(num);
+ void CheckEven (int num)
+{
+    int ed = num / 10;
+    System.Console.WriteLine(ed % 10);
+}
+System.Console.WriteLine("Введите число ->");
+int num = Convert.ToInt32(Console.ReadLine());
+CheckEven(num);
 
 
 
@@ -20,21 +20,21 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-// System.Console.WriteLine("Введите трехзначное число ->");
-// int num = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Введите трехзначное число ->");
+int num = Convert.ToInt32(Console.ReadLine());
 
-// if (num >= 999 && num <= 999999)
-// {
-//     System.Console.WriteLine($"Последняя цифра числа {num} -> {(num / 100) % 10}");
-// }
-// else if (num >= 100 && num <= 999)
-// {
-//     System.Console.WriteLine($"Последняя цифра числа {num} -> {num % 10}");
-// }
-// else if (num >= 0 && num <= 99)
-// {
-//     System.Console.WriteLine("Вы ввели не трехзначное число!");
-// }
+if (num >= 999 && num <= 999999)
+{
+    System.Console.WriteLine($"Последняя цифра числа {num} -> {(num / 100) % 10}");
+}
+else if (num >= 100 && num <= 999)
+{
+    System.Console.WriteLine($"Последняя цифра числа {num} -> {num % 10}");
+}
+else if (num >= 0 && num <= 99)
+{
+    System.Console.WriteLine("Вы ввели не трехзначное число!");
+}
 
 
 

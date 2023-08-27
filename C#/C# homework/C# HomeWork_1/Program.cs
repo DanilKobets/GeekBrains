@@ -4,23 +4,23 @@
 // // a = 2 b = 10 -> max = 10
 // // a = -9 b = -3 -> max = -3
 
-// System.Console.Write("Введите перво число ->");
-// int num1 = Convert.ToInt32(Console.ReadLine());
-// System.Console.Write("Введите второе число ->");
-// int num2 = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите перво число ->");
+int num1 = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите второе число ->");
+int num2 = Convert.ToInt32(Console.ReadLine());
 
-// if (num1 > num2)
-// {
-//     System.Console.WriteLine($"max -> {num1} min -> {num2}");
-// }
-// else if (num1 < num2)
-// {
-//     System.Console.WriteLine($"max -> {num2} min -> {num1}");
-// }
-// else
-// {
-//     System.Console.WriteLine("Числа равны");
-// }
+if (num1 > num2)
+{
+    System.Console.WriteLine($"max -> {num1} min -> {num2}");
+}
+else if (num1 < num2)
+{
+    System.Console.WriteLine($"max -> {num2} min -> {num1}");
+}
+else
+{
+    System.Console.WriteLine("Числа равны");
+}
 
 
 // // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
@@ -29,26 +29,26 @@
 // // 22 3 9 -> 22
 
 
-// class Program {
-//   static void Main(string[] args) {
-//         Console.WriteLine("Введите три числа:");
-//         int a = int.Parse(Console.ReadLine());
-//         int b = int.Parse(Console.ReadLine());
-//         int c = int.Parse(Console.ReadLine());
+class Program {
+  static void Main(string[] args) {
+        Console.WriteLine("Введите три числа:");
+        int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
+        int c = int.Parse(Console.ReadLine());
 
-//         int max = a;
+        int max = a;
         
-//         if (b > max) 
-//         {
-//             max = b;
-//         }
-//         if (c > max) {
-//             max = c;
-//         }
+        if (b > max) 
+        {
+            max = b;
+        }
+        if (c > max) {
+            max = c;
+        }
 
-//         Console.WriteLine("Максимальное число: " + max);
-//     }
-// }
+        Console.WriteLine("Максимальное число: " + max);
+    }
+}
 
 
 
@@ -57,48 +57,48 @@
 // // -3 -> нет
 // // 7 -> нет
 
-// using System;
+using System;
 
-// class Program
-// {
-//     static void Main(string[] args)
-//     {
-//         Console.Write("Введите число: ");
-//         int number = int.Parse(Console.ReadLine());
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Введите число: ");
+        int number = int.Parse(Console.ReadLine());
 
-//         if (number % 2 == 0)
-//         {
-//             Console.WriteLine("Число четное");
-//         }
-//         else
-//         {
-//             Console.WriteLine("Число нечетное");
-//         }
-//     }
-// }
+        if (number % 2 == 0)
+        {
+            Console.WriteLine("Число четное");
+        }
+        else
+        {
+            Console.WriteLine("Число нечетное");
+        }
+    }
+}
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-// using System;
+using System;
 
-// class Program
-// {
-//     static void Main(string[] args)
-//     {
-//         Console.Write("Введите N: ");
-//         int n = int.Parse(Console.ReadLine());
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Введите N: ");
+        int n = int.Parse(Console.ReadLine());
 
-//         Console.WriteLine("Четные числа от 1 до " + n + ":");
+        Console.WriteLine("Четные числа от 1 до " + n + ":");
 
-//         for (int i = 2; i <= n; i += 2)
-//         {
-//             Console.Write(i + " ");
-//         }
+        for (int i = 2; i <= n; i += 2)
+        {
+            Console.Write(i + " ");
+        }
 
-//         Console.ReadLine();
-//     }
-// }
+        Console.ReadLine();
+    }
+}
 
 

@@ -1,4 +1,4 @@
-﻿// git remote add origin https://github.com/DanilKobets/HomeWORK.git
+﻿// git remote add origin 
 
 /////////////////////
 // Sem1
