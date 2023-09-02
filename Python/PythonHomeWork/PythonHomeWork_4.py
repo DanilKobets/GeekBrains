@@ -9,25 +9,25 @@
 
 
 n = (int(input("Введите N кол-во элементов первого множества: ")))
-num_list_1=[]
+num1=[] 
 for i in range(n):
-    num = int(input("Введите число "))
-    num_list_1.append(num)
-print(num_list_1)
+    num = int(input("Введите число -> "))
+    num1.append(num) 
+print(num1)
 
 m = (int(input("Введите M кол-во элементов второго множества: ")))
-num_list_2 = []
+num2 = []
 for i in range(m):
-    num = int(input("Введите число "))
-    num_list_2.append(num)
-print(num_list_2)
+    num = int(input("Введите число -> "))
+    num2.append(num)
+print(num2)
 
-checked_nums_list = []
+num_check = []
 
-for i in num_list_1:
-    for j in num_list_2:
-        if i == j and i not in checked_nums_list:
-            checked_nums_list.append(i)
+for i in num1:
+    for j in num2:
+        if i == j and i not in num_check:
+            num_check.append(i)
             print(i)
 
 
