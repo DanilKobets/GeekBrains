@@ -1,0 +1,8 @@
+окт. 01, 2023 10:39:06 AM Seminar2.task_4 writeToFile
+INFO: Запись в файл выполнина успешно
+окт. 01, 2023 4:38:43 PM Seminar2.task_4 writeToFile
+INFO: Запись в файл выполнина успешно
+окт. 03, 2023 11:09:16 PM Seminar2.task_4 writeToFile
+INFO: Запись в файл выполнина успешно
+окт. 14, 2023 11:39:15 AM Seminar2.task_4 writeToFile
+INFO: Запись в файл выполнина успешно
